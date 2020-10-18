@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 19 - HTML</title>
+</head>
+<body>
+	<form action="" method="post">
+		<fieldset style="width: 300px;">
+			<legend>Application form</legend>
+			<table cellspacing="3" cellpadding="3">
+				<tr>
+					<td>Full name</td>
+					<td><input type="text" placeholder="Aryan"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" placeholder="aryan@domain.com"></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gradio" checked><label for="gradio">Male</label>
+						<input type="radio" name="gradio"><label for="gradio">Female</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Nationality</td>
+					<td>
+						<select>
+							<option>Indian</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Skills</td>
+					<td>
+						<input type="checkbox" checked><label>Asp.Net</label>
+						<input type="checkbox" checked=""><label>jQuery</label>
+						<br>
+						<input type="checkbox"><label>MVC</label>
+						<input type="checkbox" checked><label>Sql Server</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Post applying<br>for</td>
+					<td>
+						<input type="radio" name="pradio"><label for=pradio>Trainee</label>
+						<input type="radio" name="pradio" checked><label for=pradio>Software Engineer</label>
+						<br>
+						<input type="radio" name="pradio"><label for=pradio>Team Leader</label>
+						<input type="radio" name="pradio"><label for=pradio>Project manager</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Upload<br>Resume:</td>
+					<td><input type="file"></td>
+				</tr>
+				<tr>
+					<td>Paste your<br>resume</td>
+					<td><textarea style="resize: none;overflow-y: scroll;" cols="33" rows="5" placeholder="Sample resume text..."></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="checkbox" name="ncheckbox" checked><label for="ncheckbox">Notify me the status via Email</label></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="radio" name="nradio" checked><label for="nradio">I agree to terms & conditions</label></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

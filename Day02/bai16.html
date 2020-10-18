@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 16 - HTML</title>
+</head>
+<body>
+	<form action="" method="post">
+		<table cellpadding="3">
+			<caption><font size="+2">Novell Services Login</font></caption>
+			<tr></tr>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="uname"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pword" placeholder="********">
+			</tr>
+			<tr>
+				<td>City of<br>Employment:</td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td>Web server:</td>
+				<td>
+					<select>
+						<option>---Choose a server---</option>
+					</select>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td>Please specify<br>your role:</td>
+				<td>
+					<input type="radio" name="rradio"><label for="rradio">Admin</label>
+					<br>
+					<input type="radio" name="rradio"><label for="rradio">Engineer</label>
+					<br>
+					<input type="radio" name="rradio"><label for="rradio">Manager</label>
+					<br>
+					<input type="radio" name="rradio"><label for="rradio">Guest</label>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr></tr>
+			<tr>
+				<td>Single Sign-on<br>to the following:</td>
+				<td>
+					<input type="checkbox" name="cbox1"><label for="cbox1">Mail</label>
+					<br>
+					<input type="checkbox" name="cbox1"><label for="cbox1">Payroll</label>
+					<br>
+					<input type="checkbox" name="cbox1"><label for="cbox1">Self-service</label>
+				</td>
+			</tr>
+			<tr></tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="Login">
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
