@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 4 - CSS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#p-title:before {
+		    content: url(images/bt4.png);
+		}
+		#p-title {
+		    color: red;
+		    font-size: 30px;
+		    font-weight: bold;
+		}
+		table {
+			width: auto;
+		}	
+		td {
+			width: 160px;
+		}	
+	</style>
+</head>
+<body>
+	<div class="main-content">
+		<form action="" method="post">
+		<p id="p-title">Employee Registration Form</p>	
+			<table>
+				<tr>
+					<td></td>
+					<td>
+						<input type="radio" name="radio1" checked><label>Mr</label>
+						<input type="radio" name="radio1"><label>Mrs</label>
+						<input type="radio" name="radio1"><label>Ms</label>
+					</td>
+				</tr>
+				<tr>
+					<td>First Name</td>
+					<td><input type="text" placeholder="FirstName"></td>
+				</tr>				
+				<tr>
+					<td>Last Name</td>
+					<td>
+						<input type="text" placeholder="LastName">
+					</td>
+				</tr>
+				<tr>
+					<td>Mail Address1</td>
+					<td><input type="email"></td>
+				</tr>
+				<tr>
+					<td>Mail Address2</td>
+					<td><input type="email"></td>
+				</tr>	
+				<tr>
+					<td>City</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>State</td>
+					<td>
+						<select>
+							<option>Guiarat</option>
+						</select>
+					</td>
+				</tr>			
+				<tr>
+					<td>Zip</td>
+					<td><input type="text"></td>
+				</tr>
+				<tr>
+					<td>Upload photo</td>
+					<td><input type="file"></td>
+				</tr>
+				<tr>
+					<td>E-mail</td>
+					<td><input type="eamil"></td>
+				</tr>
+				<tr>
+					<td>Mobile</td>
+					<td><input type="number" placeholder="+91"></td>
+				</tr>
+				<tr>
+					<td>Languages known</td>
+					<td>
+						<input type="checkbox" checked><label>Gujarati</label><br>
+						<input type="checkbox" checked><label>Hindi</label><br>
+						<input type="checkbox" checked><label>English</label><br>
+						<input type="checkbox"><label>Marathi</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Additional Information</td>
+					<td><textarea cols="33" rows="5" placeholder="Optional"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Reset">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

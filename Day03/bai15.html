@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 15 - CSS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#div-container {
+			background-image: linear-gradient(to right, #3A1D16, #661D12);
+			padding: 50px;
+			margin: auto;
+			width: 480px;
+		}
+		form {
+			background-color: white;
+			border-top-left-radius: 17px;
+			border-top-right-radius: 17px;
+			border-bottom-left-radius: 15px;
+			border-bottom-right-radius: 15px;			
+			width: 280px;
+			margin: auto;
+			height: 420px;
+		}
+		#div-main {
+			padding: 0 10px;
+		}
+		label {
+			padding: 3px;
+		}
+		#p-title {
+			text-align: center;
+			background-color: #1C050C;
+			text-transform: uppercase;
+			color: white;
+			margin: 0;
+			padding: 10px;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;
+		}
+		select {
+			font-size: 20px;
+			display: block;
+			margin: 0 auto;
+		}
+		input[type=number] {
+			width: 180px;
+		}
+		#div-submit {
+			text-align: center;
+		}
+		input[type=submit] {
+			background-color: #9F283D;
+			color: white;
+			border: none;
+			border-radius: 5px 5px 5px;
+			width: 150px;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div id="div-container">
+		<form action="" method="post">
+			<div id="div-title">
+				<p id="p-title">Tip Calculator</p>
+			</div>
+			<div id="div-main">
+				<p>How much was your bill?</p>
+				<label for="amount">$</label><input type="number" placeholder="Bill Amount" name="amount"><br>
+				<p>How was your service?</p>
+				<select>
+						<option>--Choose an Option--</option>
+				</select>
+				<p>How many people are sharing the bill?</p>
+				<input type="number" name="people" placeholder="Number of People" min="1" max="999"><label for="people">people</label>
+				<br>
+				<br>
+			<div id="div-submit">
+				<input type="submit" value="CALCULATE!">
+			</div>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

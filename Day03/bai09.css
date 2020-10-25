@@ -1,0 +1,24 @@
+.div-main {
+	background-color: #CCCCFF;
+	padding: 20px;
+	width: 550px;
+	margin: auto;
+}
+.div-font, .div-justify {
+	color: #740000;
+	padding-left: 10px
+}
+.div-href, .div-table {
+	color: #05077A;
+	padding-left: 10px;
+}
+p {
+	font-weight: bold;
+}
+span {
+	font-weight: normal;
+	padding-left: 30px;
+}
+.div-justify {
+	border: 3px dashed black;
+}

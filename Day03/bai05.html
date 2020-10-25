@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 05 - CSS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		table, th, td {
+			border: 1px solid black;
+		}
+		td {
+			width: 160px;
+			padding: 3px;
+		}
+		caption {
+			color: red;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		table tr:nth-child(3) td:last-child {
+			color: blue;
+			font-weight: bold;
+		}
+		table tr:nth-child(4) td:last-child {
+			font-weight: bold;
+		}
+		table tr:nth-child(5) td:last-child {
+			font-style: italic;
+		}
+		table tr:nth-child(6) td:last-child {
+			text-decoration: underline;
+		}
+		table tr:nth-child(7) td:last-child {
+			font-style: italic;
+		}
+		table tr:nth-child(8) td:last-child {
+			font-weight: bold;
+		}
+		table tr:nth-child(9) td:last-child {
+			font-family: lucida console;
+		}
+		table tr:nth-child(10) td:last-child {
+			font-style: italic;
+		}
+		table tr:nth-child(11) td:last-child {
+			text-decoration: line-through;
+		}
+		table tr:nth-child(12) td:last-child {
+			font-size: large;
+		}
+		table tr:nth-child(13) td:last-child {
+			font-size: small;
+		}
+		#id-sub {
+			vertical-align: sub;
+		}
+		#id-sup {
+			vertical-align: super;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Text Formatting Tags</caption>
+		<tr>
+			<th>HTML Tag</th>
+			<th>Output</th>
+		</tr>
+		<tr>
+			<td>normal text</td>
+			<td>hello world</td>
+		</tr>
+		<tr>
+			<td>Font & its attribute</td>
+			<td>hello world</td>
+		</tr>
+		<tr>
+			<td>&lt;B&gt;</td>
+			<td>Bold</td>
+		</tr>
+		<tr>
+			<td>&lt;I&gt;</td>
+			<td>Italic</td>
+		</tr>
+		<tr>
+			<td>&lt;U&gt;</td>
+			<td>Underline</td>
+		</tr>
+		<tr>
+			<td>&lt;EM&gt;</td>
+			<td>Emphasis</td>
+		</tr>
+		<tr>
+			<td>&lt;STRONG&gt;</td>
+			<td>STRONG</td>
+		</tr>
+		<tr>
+			<td>&lt;TELETYPE&gt;</td>
+			<td>TELETYPE</td>
+		</tr>
+		<tr>
+			<td>&lt;CITE&gt;</td>
+			<td>Citation</td>
+		</tr>
+		<tr>
+			<td>&lt;STRIKE&gt;</td>
+			<td>strike through text</td>
+		</tr>
+		<tr>
+			<td>&lt;BIG&gt;</td>
+			<td>text in a big font</td>
+		</tr>
+		<tr>
+			<td>&lt;SMALL&gt;</td>
+			<td>text in a small font</td>
+		</tr>
+		<tr>
+			<td>&lt;SUB&gt;</td>
+			<td>a<span id="id-sub">b</span></td>
+		</tr>
+		<tr>
+			<td>&lt;SUP&gt;</td>
+			<td>a<span id="id-sup">b</span></td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bài tập 12 - CSS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		table, th, td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		th, td {
+			padding: 3px
+		}
+		.td-span {
+			font-weight: bold;
+			text-align: center;
+		}
+		tr td:first-child {
+			font-weight: bold;
+		}
+		tr:nth-child(3) td:first-child {
+			color: #175695;
+		}
+		tr:nth-child(4) td:first-child {
+			color: #175695;
+		}
+		tr:nth-child(5) td:first-child {
+			color: #175695;
+		}
+		tr:nth-child(n+7) td:first-child {
+			color: #5186D2;
+		}
+		tr:nth-child(3) td:nth-child(n+2) {
+			color: #72B0E4;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Course Number</th>
+			<th>Course Title</th>
+			<th>Semester Taken</th>
+		</tr>
+		<tr>
+			<td colspan="3" class="td-span">For Credit</td>
+		</tr>
+		<tr>
+			<td>6.813</td>
+			<td>User Interface Design</td>
+			<td>Spring 2014</td>
+		</tr>
+		<tr>
+			<td>6.034</td>
+			<td>Artificial Intelligence</td>
+			<td>Fall 2013</td>
+		</tr>
+		<tr>
+			<td>6.006</td>
+			<td>Introduction to Algorithms</td>
+			<td>Fall 2013</td>
+		</tr>
+		<tr>
+			<td colspan="3" class="td-span">Listener</td>
+		</tr>
+		<tr>
+			<td>6.867</td>
+			<td>Machine Learning</td>
+			<td>Fall 2013</td>
+		</tr>
+		<tr>
+			<td>6.830</td>
+			<td>Database Systems</td>
+			<td>Fall 2012</td>
+		</tr>
+
+	</table>
+</body>
+</html>
